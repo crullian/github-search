@@ -1,0 +1,12 @@
+.UserBadge-container {
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+
+@media (min-width: 600px) {
+  .UserBadge-card-header {
+    width: 800px;
+    margin: 0 auto;
+  }
+}

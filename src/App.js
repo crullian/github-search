@@ -11,7 +11,6 @@ class App extends Component {
     super(props);
     this.state = {
       user: null,
-      repos: [],
       error: ''
     }
     this.handleFetchGithubUser = this.handleFetchGithubUser.bind(this);
